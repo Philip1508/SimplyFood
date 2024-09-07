@@ -1,5 +1,8 @@
 package name.simplyfood;
 
+import name.simplyfood.foodcomponents.SimplyfoodFoodComponents;
+import name.simplyfood.items.ItemRegistrator;
+import name.simplyfood.statuseffects.StatusEffectRegistrator;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +21,13 @@ public class SimplyAstonishingFood implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		LOGGER.info("Initializing Status Effects");
+		StatusEffectRegistrator.initializeAndRegister();
+
+
+
+		LOGGER.info("Initializing Items");
+		ItemRegistrator.initializeAndRegister();
 
 		LOGGER.info("Hello Fabric world!");
 	}
