@@ -8,6 +8,7 @@ import net.minecraft.entity.player.PlayerEntity;
 
 public class SimplyFoodsStatusEffect extends StatusEffect {
 
+    public static final int NOURISHMENT_TIMING_SECONDS = 22;
 
     private final StatusEffectTypes subtype;
 
@@ -22,15 +23,12 @@ public class SimplyFoodsStatusEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier)
     {
 
-        // If the target isn't a player do nothing; If the target is a Player bind him to the corresponding variable
         // The entire calculation can be skipped on the client.
-        if (entity.getWorld().isClient() || !(entity instanceof PlayerEntity player))
+        if (entity.getWorld().isClient())
         {
             return;
         }
 
-
-        HungerManager hungerManager = player.getHungerManager();
 
 
 
@@ -40,6 +38,14 @@ public class SimplyFoodsStatusEffect extends StatusEffect {
         {
             case NOURISHMENT ->
             {
+                // If the entity isn't a player do nothing!
+                if (!(entity instanceof PlayerEntity player))
+                {
+                    return;
+                }
+                HungerManager hungerManager = player.getHungerManager();
+
+
                 if (hungerManager.getFoodLevel() < 19)
                 {
                     // This is made this way in order to not tamper with the saturation value.
@@ -54,8 +60,8 @@ public class SimplyFoodsStatusEffect extends StatusEffect {
             }
 
             case REJUVENATION -> {
-                player.heal(1.0f);
-                return;
+                entity.heal(0.7f);
+
             }
 
             case REPLENISHMENT -> {
@@ -78,7 +84,7 @@ public class SimplyFoodsStatusEffect extends StatusEffect {
     {
 
         int tickSecond = 20; // 20 Ticks = 1 Second
-        int baseRate = 11; // Base Rate at 11 Seconds. Stronger Stews reduce this in the final calculation.
+        int baseRate = NOURISHMENT_TIMING_SECONDS; // Base Rate at 11 Seconds. Stronger Stews reduce this in the final calculation.
 
         switch (subtype)
         {
@@ -88,7 +94,7 @@ public class SimplyFoodsStatusEffect extends StatusEffect {
             }
 
             case REJUVENATION -> {
-                return duration % (tickSecond * 8) == 0;
+                return duration % (tickSecond * 10) == 0;
             }
 
             // When in doubt; Do Nothing!

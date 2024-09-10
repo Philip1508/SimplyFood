@@ -1,3 +1,47 @@
 {
-  "item.simply-food.basic_stew": "Ghastly Potato"
+
+  "creative.group.simply-food": "Simply Food",
+
+  "item.simply-food.raw-claybowl": "Raw Clay Bowl",
+  "item.simply-food.claybowl": "Clay Bowl",
+  "item.simply-food.filled-claybowl": "Watered Clay Bowl",
+
+
+  "item.simply-food.raw-stock": "Raw Stock",
+  "item.simply-food.stock": "Stock",
+
+  "item.simply-food.raw-vegetable-soup": "Raw Vegetable Soup",
+  "item.simply-food.vegetable-soup": "Vegetable Soup",
+  "item.simply-food.raw-vegetable-soup-stocked": "Raw Hearty Vegetable Soup",
+  "item.simply-food.vegetable-soup-stocked": "Hearty Vegetable Soup",
+
+  "item.simply-food.raw-nourishing-soup": "Raw Nourishing Soup",
+  "item.simply-food.nourishing-soup": "Nourishing Soup",
+  "item.simply-food.raw-nourishing-soup-stocked": "Raw Hearty Nourishing Soup",
+  "item.simply-food.nourishing-soup-stocked": "Hearty Nourishing Soup",
+
+  "item.simply-food.raw-great-soup": "Raw Great Soup",
+  "item.simply-food.great-soup": "Great Soup",
+  "item.simply-food.raw-great-soup-stocked": "Raw Hearty Great Soup",
+  "item.simply-food.great-soup-stocked": "Hearty Great Soup",
+
+  "item.simply-food.raw-grand-soup": "Raw Grand Soup",
+  "item.simply-food.grand-soup": "Grand Soup",
+  "item.simply-food.raw-grand-soup-stocked": "Raw Hearty Grand Soup",
+  "item.simply-food.grand-soup-stocked": "Hearty Grand Soup",
+
+  "item.simply-food.raw-petfood": "Raw Animalfood",
+  "item.simply-food.petfood": "Animalfood",
+
+
+  "item.simply-food.soup.stats": "Will restore %s points of Hunger over %s:%s Minutes",
+  "item.simply-food.petfood.health": "Will restore %s Hearts over %s Minutes",
+  "item.simply-food.petfood.magmacreamed": "Will also add Fire Resistance",
+  "item.simply-food.petfood.magmacreamable": "Apply Magma Cream with Off-Hand",
+
+
+
+  "effect.simply-food.nourishment": "Nourishment"
+
+
 }

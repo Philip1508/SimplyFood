@@ -1,0 +1,59 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "simply-food:raw-claybowl"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "simply-food:raw-claybowl"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bowl",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simply-food:claybowl",
+      "simply-food:raw-stock",
+      "simply-food:raw-vegetable-soup",
+      "simply-food:raw-vegetable-soup-stocked",
+      "simply-food:vegetable-soup",
+      "simply-food:vegetable-soup-stocked",
+
+      "simply-food:raw-nourishing-soup",
+      "simply-food:raw-nourishing-soup-stocked",
+      "simply-food:nourishing-soup",
+      "simply-food:nourishing-soup-stocked",
+
+
+      "simply-food:raw-great-soup",
+      "simply-food:raw-great-soup-stocked",
+      "simply-food:great-soup",
+      "simply-food:great-soup-stocked",
+
+      "simply-food:raw-grand-soup",
+      "simply-food:raw-grand-soup-stocked",
+      "simply-food:grand-soup",
+      "simply-food:grand-soup-stocked",
+
+      "simply-food:grand-raw-petfood",
+      "simply-food:petfood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

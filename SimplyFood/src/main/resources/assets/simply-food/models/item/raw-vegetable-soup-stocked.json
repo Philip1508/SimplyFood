@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+
+  "layer0": "simply-food:item/vegetable_soup/raw_vegetable_soup_stocked"
+  }
+}

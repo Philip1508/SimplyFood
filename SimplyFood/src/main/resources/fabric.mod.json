@@ -3,15 +3,15 @@
 	"id": "simply-food",
 	"version": "${version}",
 	"name": "Simply Astonishing Food",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a rather simple mod that adds Soups, which replenish hunger (and very little health) over time!",
 	"authors": [
-		"Me!"
+		"Philip 'Bobi'"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/simply-food/icon.png",
 	"environment": "*",
 	"entrypoints": {
