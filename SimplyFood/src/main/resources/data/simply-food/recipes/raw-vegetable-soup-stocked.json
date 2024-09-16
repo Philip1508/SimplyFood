@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [
+
+    [
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    {
+      "item": "simply-food:stock"
+    }
+
+
+  ],
+  "result": {
+    "item": "simply-food:raw-vegetable-soup-stocked"
+  }
+}

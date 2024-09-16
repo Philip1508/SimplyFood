@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+
+  "cookingtime": 2400,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "simply-food:raw-vegetable-soup"
+  },
+  "result": "simply-food:vegetable-soup"
+}

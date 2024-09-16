@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 5500,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "simply-food:raw-nourishing-soup-stocked"
+  },
+  "result": "simply-food:nourishing-soup-stocked"
+}

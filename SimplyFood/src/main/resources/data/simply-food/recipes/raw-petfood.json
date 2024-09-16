@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [
+
+    [
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "simply-food:claybowl"
+    }
+
+  ],
+  "result": {
+    "item": "simply-food:raw-petfood"
+  }
+}

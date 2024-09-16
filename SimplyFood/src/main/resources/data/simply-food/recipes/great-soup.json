@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 6000,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "simply-food:raw-great-soup"
+  },
+  "result": "simply-food:great-soup"
+}

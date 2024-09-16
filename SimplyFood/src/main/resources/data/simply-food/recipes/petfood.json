@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+
+  "cookingtime": 500,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "simply-food:raw-petfood"
+  },
+  "result": "simply-food:petfood"
+}
